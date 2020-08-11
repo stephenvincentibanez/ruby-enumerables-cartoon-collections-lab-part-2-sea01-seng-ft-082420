@@ -19,7 +19,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.map |element|
   planeteer_calls.map do |element|
-    String>4
+    element.length>4
     planeteer_calls
 end
 
